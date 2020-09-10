@@ -1,0 +1,339 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ html, body{
+ 	min-width: 600px;
+	width: 80%;
+	max-width: 1024px;
+	margin: auto;
+	background: #020202;
+	position: relative;
+ } 
+h3, p{
+	color: #FFFFFF;
+}
+ header{
+ 	padding: 30px;
+ 	background: url(../images/about_us/about-header.jpg);
+ 	background-size: 100%;
+ 	height: 300px;
+ 	margin-top: 40px;
+ }
+ .logo{
+ 	height: 35px;
+ 	width: 80px;
+ 	float: left;
+ 	position: absolute;
+ 	top: -1%;
+ 	left: 4%;
+ }
+header h1{
+	color: #FFFFFF;
+	width: 200px;
+	position: absolute;
+	top: 10%;
+	left: 4%;
+
+}
+ menu{
+ 	background: #2E2E2E;
+ 	color: #FFFFFF;
+ 	border-left: 2px solid #EC43E0;
+ 	display: flex;
+    flex-direction: row;
+	justify-content: flex-end;
+	height: 55px;
+	
+	margin-top: -50px;
+ }
+ menu li{
+ 	list-style: none; 
+
+ }
+menu li a{
+	display: inline-block;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 20px;
+	margin-right: 30px;
+    height: 35px;
+	padding: 10px;
+}
+.active{
+	background: #717171;
+
+}
+
+ article .h3{
+	font-size: 24px;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+article .p{
+	color: #ACABAB;
+	width: 600px;
+	margin-left: 100px;
+	margin-bottom: 25px;
+}
+
+ article img{
+ 	width: 200px;
+ }
+ .blok{
+ 	display: flex;
+    flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 30px;
+
+ }
+.foto1{
+	border: 1px solid #706C6C;
+	width: 200px;
+	height: 350px;
+padding: 10px;
+}
+.foto1 .name{
+color: #BB44B5;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+.foto1 p{
+	color: #ACABAB;
+}
+.foto2{
+	border: 1px solid #706C6C;
+	width: 200px;
+	height: 350px;
+	padding: 10px;
+}
+.foto2 .name{
+color: #BB44B5;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+.foto2 p{
+	color: #ACABAB;
+}
+.foto3{
+	border: 1px solid #706C6C;
+	width: 200px;
+	height: 350px;
+	padding: 10px;
+}
+.foto3 .name{
+color: #BB44B5;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+.foto3 p{
+	color: #ACABAB;
+}
+
+
+section{
+	height: 250px;
+	 position: relative;
+}
+
+section h3{
+	margin-top: 70px;
+	margin-bottom: 20px;
+	font-size: 22px;
+
+}
+section p{
+	width: 350px;
+
+}
+
+.progress {
+  position: relative;
+  top: -140px;
+  right: -470px;
+  width: 350px;
+  height: 5px;
+  overflow: hidden;
+  background: #ff3232;
+  background: linear-gradient(to right, #FF3232 80%,#FFFFFF 20%);
+}
+ .progress2 {
+  position: relative;
+  top: -86px;
+  right: -470px;
+  width: 350px;
+  height: 5px;
+  overflow: hidden;
+  background: #ff3232;
+  background: linear-gradient(to right, #E3D138 70%,#FFFFFF 30%);
+}
+ 
+ .progress3 {
+  position: relative;
+  top: -32px;
+  right: -470px;
+  width: 350px;
+  height: 5px;
+  overflow: hidden;
+  background: #ff3232;
+  background: linear-gradient(to right, #3F32FF 60%,#FFFFFF 40%);
+}
+ 
+ .text1{
+ 	position: absolute;
+ 	top: -6px;
+ 	right:-4px;
+ }
+
+  .text2{
+ 	position: absolute;
+ 	top: 56px;
+ 	right:-4px;
+ }
+
+ .text3{
+ 	position: absolute;
+ 	top: 110px;
+ 	right:-4px;
+ }
+
+
+
+
+main{
+ 	background: #272626;
+ 	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+ 	margin-top: 30px;
+ 	width: 93%;
+	padding: 30px;
+	font-size: 14px;
+	color: #9C9A9A;
+
+ }
+.logo1{
+ 	height: 35px;
+ 	width: 80px;
+ 	float: left;
+ 	position: absolute;
+ 	bottom: 16.5%;
+ 	left: 3%;
+
+ }
+main h3{
+	font-size: 19px;
+	margin-bottom: 10px;
+}
+main p{
+	margin-bottom: 10px;
+}
+ main .contact1{
+ 	margin-top: 21px;
+ 	width: 300px;
+
+ }
+  main .contact1 p{
+ 	margin-top: 10px;
+
+ }
+main.contact2{
+	width: 225px;
+}
+main .contact3{
+ 	width: 300px;
+ }
+.contact1 i{
+	margin-right: 5px;
+}
+.contact3 p{
+	margin-bottom: 10px;
+}
+.contact3 .but1{
+	background: none;
+	width: 200px;
+	height: 30px;
+	color: #FFFFFF;
+	font-size: 14px;
+	text-align: left;
+	padding: 6px;
+}
+.contact3 .but2{
+	background: none;
+	width: 100px;
+	height: 30px;
+	color: #FFFFFF;
+	font-size: 14px;
+	margin-top: 10px;
+	text-align: left;
+	padding: 6px;
+}
+
+footer{
+ 	text-align: left;
+ 	height: 15%;
+ 	padding: 18px;
+ 	color: #FFFFFF;
+ }
+ footer i{
+ 	margin-right: 7px;
+ 	padding: 10px;
+ 	background: #333131;
+ }
+ footer p{
+ 	display: inline-block;
+ 	margin-right: 80px;
+ }
+
+
+
+ @media screen and (max-width: 900px){
+ 	body{
+		width: 50vw;
+	}
+div .progress, .progress2, .progress3, .text1, .text2, .text3{
+	display: none;
+}
+.logo1{
+ 	position: absolute;
+ 	bottom: 18%;
+ 	left: 3%;
+ }
+ footer p{
+ 	display: block;
+ 	margin-bottom: 10px;
+ }
+}
+@media screen and (max-width: 1100px){
+	body{
+		width: 70vw;
+	}
+.text1{
+ 	position: absolute;
+ 	top: -6px;
+ 	right:-177px;
+ }
+
+  .text2{
+ 	position: absolute;
+ 	top: 56px;
+ 	right:-177px;
+ }
+
+ .text3{
+ 	position: absolute;
+ 	top: 110px;
+ 	right:-177px;
+ }
+
+.logo1{
+ 	position: absolute;
+ 	bottom: 18%;
+ 	left: 3%;
+ }
+ footer p{
+ 	display: block;
+ 	margin-bottom: 10px;
+ }
+}
